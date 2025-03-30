@@ -5,7 +5,7 @@ entries:
       charts.openshift.io/name: IBM Sterling B2B Integrator
     apiVersion: v2
     appVersion: 6.2.1.0
-    created: "2025-03-30T02:39:55.257134678+05:30"
+    created: "2025-03-30T11:17:07.166827953+05:30"
     dependencies:
     - alias: sch
       name: ibm-sch
@@ -25,7 +25,7 @@ entries:
       while providing governance and visibility over those processes. Documentation
       For additional details regarding install parameters check https://www.ibm.com/docs/en/b2b-integrator/6.2.0?topic=integrator-installing-sterling-b2b-using-certified-container.
       License By installing this product you accept the license terms https://ibm.biz/B2Bi_62
-    digest: 7c3267b1c5d4f2a45cc2f2b27bfe5bf247e8284e7a27bff84a857ae3dea0dc1d
+    digest: 5bfc281613c4162e531294546be4928dbb76798f4a1eea718c3c5d190efcb516
     home: https://www.ibm.com/docs/en/b2b-integrator/6.2.0
     icon: https://raw.githubusercontent.com/IBM/charts/master/logo/ibm-b2bi-icon.png
     keywords:
@@ -53,7 +53,7 @@ entries:
       charts.openshift.io/name: IBM Sterling B2B Integrator
     apiVersion: v2
     appVersion: 6.2.1.0
-    created: "2025-03-30T02:39:55.295816292+05:30"
+    created: "2025-03-30T11:17:07.210677895+05:30"
     dependencies:
     - alias: sch
       name: ibm-sch
@@ -73,7 +73,7 @@ entries:
       while providing governance and visibility over those processes. Documentation
       For additional details regarding install parameters check https://www.ibm.com/docs/en/b2b-integrator/6.2.0?topic=integrator-installing-sterling-b2b-using-certified-container.
       License By installing this product you accept the license terms https://ibm.biz/B2Bi_62
-    digest: 7812bd064f978946bec3580a47f4044ef4dbea8ce2f8cc0faf869649720257b5
+    digest: 2623b3b243087e4509244e0ff2ef4df0493112a742f2fc237323dbc9b4f8fd6c
     home: https://www.ibm.com/docs/en/b2b-integrator/6.2.0
     icon: https://raw.githubusercontent.com/IBM/charts/master/logo/ibm-b2bi-icon.png
     keywords:
@@ -96,4 +96,4 @@ entries:
     urls:
     - ibm-sfg-prod-3.1.0.tgz
     version: 3.1.0
-generated: "2025-03-30T02:39:55.215014975+05:30"
+generated: "2025-03-30T11:17:07.12480584+05:30"
