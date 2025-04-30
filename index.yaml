@@ -5,7 +5,7 @@ entries:
       charts.openshift.io/name: IBM Sterling B2B Integrator
     apiVersion: v2
     appVersion: 6.2.1.0
-    created: "2025-04-30T12:58:51.625752956+05:30"
+    created: "2025-04-30T20:07:24.790346835+05:30"
     dependencies:
     - alias: sch
       name: ibm-sch
@@ -24,8 +24,9 @@ entries:
       on a single B2B platform and helps automate B2B processes across enterprises,
       while providing governance and visibility over those processes. Documentation
       For additional details regarding install parameters check https://www.ibm.com/docs/en/b2b-integrator/6.2.1?topic=integrator-installing-sterling-b2b-using-certified-container.
-      License By installing this product you accept the license terms https://ibm.biz/B2Bi_62
-    digest: cce1504eeed7261de96564f204febdb1d2b3bb32146324c9d86e9724d1f62e98
+      License By installing this product you accept the license terms https://ibm.biz/B2Bi_621_withRHO
+      | https://ibm.biz/B2Bi_621_forRHO
+    digest: 4d989f275e4026e22cd8f93688df797aa7aa8d4291225fe302e79303a93fcb69
     home: https://www.ibm.com/docs/en/b2b-integrator/6.2.1
     icon: https://raw.githubusercontent.com/IBM/charts/master/logo/ibm-b2bi-icon.png
     keywords:
@@ -53,7 +54,7 @@ entries:
       charts.openshift.io/name: IBM Sterling B2B Integrator
     apiVersion: v2
     appVersion: 6.2.1.0
-    created: "2025-04-30T12:58:51.65111482+05:30"
+    created: "2025-04-30T20:07:24.830337001+05:30"
     dependencies:
     - alias: sch
       name: ibm-sch
@@ -72,8 +73,9 @@ entries:
       on a single B2B platform and helps automate B2B processes across enterprises,
       while providing governance and visibility over those processes. Documentation
       For additional details regarding install parameters check https://www.ibm.com/docs/en/b2b-integrator/6.2.1?topic=integrator-installing-sterling-b2b-using-certified-container.
-      License By installing this product you accept the license terms https://ibm.biz/B2Bi_62
-    digest: 2806287fc07fcb80ec1a4db5782899ccd676f4ad43c6f9a0a70d1f3c7490de31
+      License By installing this product you accept the license terms https://ibm.biz/B2Bi_621_withRHO
+      | https://ibm.biz/B2Bi_621_forRHO
+    digest: 5d9c5278131e4ab2d6eca9fffdea35f0a433a942a64f1c71c19bb2c522d9d072
     home: https://www.ibm.com/docs/en/b2b-integrator/6.2.1
     icon: https://raw.githubusercontent.com/IBM/charts/master/logo/ibm-b2bi-icon.png
     keywords:
@@ -96,4 +98,4 @@ entries:
     urls:
     - ibm-sfg-prod-3.1.0.tgz
     version: 3.1.0
-generated: "2025-04-30T12:58:51.6006183+05:30"
+generated: "2025-04-30T20:07:24.753603747+05:30"
