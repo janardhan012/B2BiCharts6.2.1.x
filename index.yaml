@@ -5,7 +5,7 @@ entries:
       charts.openshift.io/name: IBM Sterling B2B Integrator
     apiVersion: v2
     appVersion: 6.2.1.0
-    created: "2025-04-30T20:07:24.790346835+05:30"
+    created: "2025-05-01T01:12:19.358571356+05:30"
     dependencies:
     - alias: sch
       name: ibm-sch
@@ -16,6 +16,11 @@ entries:
       name: ibm-document-service-prod
       repository: ""
       version: 1.1.0
+    - alias: as4Service
+      condition: as4Service.enabled
+      name: ibm-as4service-prod
+      repository: ""
+      version: 1.0.0
     description: IBM Sterling B2B Integrator helps companies integrate complex B2B
       EDI processes with their partner communities. Organizations get a single, flexible
       B2B platform that supports most communication protocols, helps secure your B2B
@@ -26,7 +31,7 @@ entries:
       For additional details regarding install parameters check https://www.ibm.com/docs/en/b2b-integrator/6.2.1?topic=integrator-installing-sterling-b2b-using-certified-container.
       License By installing this product you accept the license terms https://ibm.biz/B2Bi_621_withRHO
       | https://ibm.biz/B2Bi_621_forRHO
-    digest: 4d989f275e4026e22cd8f93688df797aa7aa8d4291225fe302e79303a93fcb69
+    digest: 12ebf31de0a57afeae237385c939851743d888f916c900fb98b5f8b9d896b492
     home: https://www.ibm.com/docs/en/b2b-integrator/6.2.1
     icon: https://raw.githubusercontent.com/IBM/charts/master/logo/ibm-b2bi-icon.png
     keywords:
@@ -54,7 +59,7 @@ entries:
       charts.openshift.io/name: IBM Sterling B2B Integrator
     apiVersion: v2
     appVersion: 6.2.1.0
-    created: "2025-04-30T20:07:24.830337001+05:30"
+    created: "2025-05-01T01:12:19.390847141+05:30"
     dependencies:
     - alias: sch
       name: ibm-sch
@@ -65,6 +70,11 @@ entries:
       name: ibm-document-service-prod
       repository: ""
       version: 1.1.0
+    - alias: as4Service
+      condition: as4Service.enabled
+      name: ibm-as4service-prod
+      repository: ""
+      version: 1.0.0
     description: IBM Sterling B2B Integrator helps companies integrate complex B2B
       EDI processes with their partner communities. Organizations get a single, flexible
       B2B platform that supports most communication protocols, helps secure your B2B
@@ -75,7 +85,7 @@ entries:
       For additional details regarding install parameters check https://www.ibm.com/docs/en/b2b-integrator/6.2.1?topic=integrator-installing-sterling-b2b-using-certified-container.
       License By installing this product you accept the license terms https://ibm.biz/B2Bi_621_withRHO
       | https://ibm.biz/B2Bi_621_forRHO
-    digest: 5d9c5278131e4ab2d6eca9fffdea35f0a433a942a64f1c71c19bb2c522d9d072
+    digest: 9a4dc93a3e36751633f395e242182b8a440740458986519405b8320887fe4966
     home: https://www.ibm.com/docs/en/b2b-integrator/6.2.1
     icon: https://raw.githubusercontent.com/IBM/charts/master/logo/ibm-b2bi-icon.png
     keywords:
@@ -98,4 +108,4 @@ entries:
     urls:
     - ibm-sfg-prod-3.1.0.tgz
     version: 3.1.0
-generated: "2025-04-30T20:07:24.753603747+05:30"
+generated: "2025-05-01T01:12:19.322078263+05:30"
