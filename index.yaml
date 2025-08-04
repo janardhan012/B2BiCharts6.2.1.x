@@ -5,7 +5,7 @@ entries:
       charts.openshift.io/name: IBM Sterling B2B Integrator
     apiVersion: v2
     appVersion: 6.2.1.1
-    created: "2025-07-29T05:44:10.037169838+05:30"
+    created: "2025-08-04T18:33:48.832930797+05:30"
     dependencies:
     - alias: sch
       name: ibm-sch
@@ -31,7 +31,7 @@ entries:
       For additional details regarding install parameters check https://www.ibm.com/docs/en/b2b-integrator/6.2.1?topic=integrator-installing-sterling-b2b-using-certified-container.
       License By installing this product you accept the license terms https://ibm.biz/B2Bi_621_withRHO
       | https://ibm.biz/B2Bi_621_forRHO
-    digest: 970d19038cbc346444baec0e4a69683a2f35eafa2e25c4de507b5293a0803f1b
+    digest: bb3864c48d011c30bb97de809d9c59a0007a094dc83476c40f3c79f6b235deca
     home: https://www.ibm.com/docs/en/b2b-integrator/6.2.1
     icon: https://raw.githubusercontent.com/IBM/charts/master/logo/ibm-b2bi-icon.png
     keywords:
@@ -59,7 +59,7 @@ entries:
       charts.openshift.io/name: IBM Sterling File Gateway
     apiVersion: v2
     appVersion: 3.1.1
-    created: "2025-07-29T05:44:10.072869197+05:30"
+    created: "2025-08-04T18:33:48.871227143+05:30"
     dependencies:
     - alias: sch
       name: ibm-sch
@@ -69,7 +69,7 @@ entries:
       condition: documentService.enabled
       name: ibm-document-service-prod
       repository: ""
-      version: 1.0.7
+      version: 1.1.1
     description: IBM Sterling File Gateway lets organizations transfer files between
       partners by using different protocols, conventions for naming files, and file
       formats. A scalable and security-enabled gateway, Sterling File Gateway enables
@@ -79,7 +79,7 @@ entries:
       check https://www.ibm.com/support/knowledgecenter/en/SS3JSW_6.2.1/installing/installing/integrator/InstallingCertifiedContainer.html.
       License By installing this product you accept the license terms https://ibm.biz/SFG_621_withRHO
       | https://ibm.biz/SFG_621_forRHO
-    digest: a5f2251e1a8e73e4c33f6e110e1c20de8d67ca1d21a34428d7e13b88b68121e7
+    digest: 6de27949d7261109248de61cf4a37af1a8408f99fd0390b6632acaa65bfb9b9d
     home: https://www.ibm.com/support/knowledgecenter/SS3JSW_6.2.1/kc_welcome_b2bi.html
     icon: https://raw.githubusercontent.com/IBM/charts/master/logo/ibm-sfg-icon.png
     keywords:
@@ -101,4 +101,4 @@ entries:
     urls:
     - ibm-sfg-prod-3.1.1.tgz
     version: 3.1.1
-generated: "2025-07-29T05:44:09.992643393+05:30"
+generated: "2025-08-04T18:33:48.798076138+05:30"
