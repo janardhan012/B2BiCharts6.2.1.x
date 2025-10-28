@@ -5,7 +5,7 @@ entries:
       charts.openshift.io/name: IBM Sterling B2B Integrator
     apiVersion: v2
     appVersion: 6.2.1.1_1
-    created: "2025-10-28T19:42:02.469140907+05:30"
+    created: "2025-10-29T01:01:07.156028641+05:30"
     dependencies:
     - alias: sch
       name: ibm-sch
@@ -31,7 +31,7 @@ entries:
       For additional details regarding install parameters check https://www.ibm.com/docs/en/b2b-integrator/6.2.1?topic=integrator-installing-sterling-b2b-using-certified-container.
       License By installing this product you accept the license terms https://ibm.biz/B2Bi_621_withRHO
       | https://ibm.biz/B2Bi_621_forRHO
-    digest: 593c711ddad93aeae09c6e5d4714635e99362185b9c9ae973b8a91e226657264
+    digest: 91f8780af2749753e255d9b49abe250698143c0697499339dd640a3fabb25f16
     home: https://www.ibm.com/docs/en/b2b-integrator/6.2.1
     icon: https://raw.githubusercontent.com/IBM/charts/master/logo/ibm-b2bi-icon.png
     keywords:
@@ -59,7 +59,7 @@ entries:
       charts.openshift.io/name: IBM Sterling File Gateway
     apiVersion: v2
     appVersion: 3.1.2
-    created: "2025-10-28T19:42:02.496236297+05:30"
+    created: "2025-10-29T01:01:07.191622159+05:30"
     dependencies:
     - alias: sch
       name: ibm-sch
@@ -84,7 +84,7 @@ entries:
       check https://www.ibm.com/support/knowledgecenter/en/SS3JSW_6.2.1/installing/installing/integrator/InstallingCertifiedContainer.html.
       License By installing this product you accept the license terms https://ibm.biz/SFG_621_withRHO
       | https://ibm.biz/SFG_621_forRHO
-    digest: 0fc1037f23a582f94234a1131180073e3b0a1c9ee8ee29fddd12cdc4dee7c940
+    digest: 0880c4189b3e1aa0b90c102da5192fd9dd021d0b396c2fe7a07a42bbca771b2a
     home: https://www.ibm.com/support/knowledgecenter/SS3JSW_6.2.1/kc_welcome_b2bi.html
     icon: https://raw.githubusercontent.com/IBM/charts/master/logo/ibm-sfg-icon.png
     keywords:
@@ -107,4 +107,4 @@ entries:
     urls:
     - ibm-sfg-prod-3.1.2.tgz
     version: 3.1.2
-generated: "2025-10-28T19:42:02.43638548+05:30"
+generated: "2025-10-29T01:01:07.124862598+05:30"
