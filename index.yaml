@@ -4,8 +4,8 @@ entries:
   - annotations:
       charts.openshift.io/name: IBM Sterling B2B Integrator
     apiVersion: v2
-    appVersion: 6.2.1.1_2
-    created: "2026-01-20T08:59:50.974791391-05:00"
+    appVersion: 6.2.1.1
+    created: "2026-02-19T14:17:39.493763189-05:00"
     dependencies:
     - alias: sch
       name: ibm-sch
@@ -15,12 +15,12 @@ entries:
       condition: documentService.enabled
       name: ibm-document-service-prod
       repository: ""
-      version: 1.1.3
+      version: 1.1.1
     - alias: as4Service
       condition: as4Service.enabled
       name: ibm-as4service-prod
       repository: ""
-      version: 1.0.3
+      version: 1.0.1
     description: IBM Sterling B2B Integrator helps companies integrate complex B2B
       EDI processes with their partner communities. Organizations get a single, flexible
       B2B platform that supports most communication protocols, helps secure your B2B
@@ -31,7 +31,7 @@ entries:
       For additional details regarding install parameters check https://www.ibm.com/docs/en/b2b-integrator/6.2.1?topic=integrator-installing-sterling-b2b-using-certified-container.
       License By installing this product you accept the license terms https://ibm.biz/B2Bi_621_withRHO
       | https://ibm.biz/B2Bi_621_forRHO
-    digest: 5963ef117ac5496e8f6da4b3dda28e94095c78cb0c8ce0138defe8376c4d6780
+    digest: 8eb7594324c10b8f5ce82302d9171f64da19dad3ecdd1c35980e66d6eb6935dc
     home: https://www.ibm.com/docs/en/b2b-integrator/6.2.1
     icon: https://raw.githubusercontent.com/IBM/charts/master/logo/ibm-b2bi-icon.png
     keywords:
@@ -52,14 +52,14 @@ entries:
     name: ibm-b2bi-prod
     type: application
     urls:
-    - ibm-b2bi-prod-3.1.3.tgz
-    version: 3.1.3
+    - ibm-b2bi-prod-3.1.1.tgz
+    version: 3.1.1
   ibm-sfg-prod:
   - annotations:
       charts.openshift.io/name: IBM Sterling File Gateway
     apiVersion: v2
-    appVersion: 6.2.1.1_2
-    created: "2026-01-20T08:59:51.00044173-05:00"
+    appVersion: 6.2.1.1
+    created: "2026-02-19T14:17:39.517752522-05:00"
     dependencies:
     - alias: sch
       name: ibm-sch
@@ -69,12 +69,12 @@ entries:
       condition: documentService.enabled
       name: ibm-document-service-prod
       repository: ""
-      version: 1.1.3
+      version: 1.1.1
     - alias: as4Service
       condition: as4Service.enabled
       name: ibm-as4service-prod
       repository: ""
-      version: 1.0.3
+      version: 1.0.1
     description: IBM Sterling File Gateway lets organizations transfer files between
       partners by using different protocols, conventions for naming files, and file
       formats. A scalable and security-enabled gateway, Sterling File Gateway enables
@@ -84,7 +84,7 @@ entries:
       check https://www.ibm.com/support/knowledgecenter/en/SS3JSW_6.2.1/installing/installing/integrator/InstallingCertifiedContainer.html.
       License By installing this product you accept the license terms https://ibm.biz/SFG_621_withRHO
       | https://ibm.biz/SFG_621_forRHO
-    digest: d04d68561b0c4fbe649221fae499c0ee26740e189ffd90f2dcd6fd84ba1aea17
+    digest: 370aa88c5af58725b8fd4b64690abdf3d7dc3c43b327d3d41592896242b3f871
     home: https://www.ibm.com/support/knowledgecenter/SS3JSW_6.2.1/kc_welcome_b2bi.html
     icon: https://raw.githubusercontent.com/IBM/charts/master/logo/ibm-sfg-icon.png
     keywords:
@@ -94,7 +94,6 @@ entries:
     - sterling
     - Commercial
     - amd64
-    - ppc64le
     - s390x
     - Automation
     - RHOCP
@@ -105,6 +104,6 @@ entries:
     name: ibm-sfg-prod
     type: application
     urls:
-    - ibm-sfg-prod-3.1.3.tgz
-    version: 3.1.3
-generated: "2026-01-20T08:59:50.945395307-05:00"
+    - ibm-sfg-prod-3.1.1.tgz
+    version: 3.1.1
+generated: "2026-02-19T14:17:39.466482118-05:00"
