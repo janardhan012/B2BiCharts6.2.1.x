@@ -4,8 +4,8 @@ entries:
   - annotations:
       charts.openshift.io/name: IBM Sterling B2B Integrator
     apiVersion: v2
-    appVersion: 6.2.1.2
-    created: "2026-06-04T23:43:45.546815171-04:00"
+    appVersion: 6.2.1.2_dummy
+    created: "2026-06-08T13:52:39.501272455-04:00"
     dependencies:
     - alias: sch
       name: ibm-sch
@@ -31,7 +31,7 @@ entries:
       For additional details regarding install parameters check https://www.ibm.com/docs/en/b2b-integrator/6.2.1?topic=integrator-installing-sterling-b2b-using-certified-container.
       License By installing this product you accept the license terms https://ibm.biz/B2Bi_621_withRHO
       | https://ibm.biz/B2Bi_621_forRHO
-    digest: b6d5821debe92426b761db65f81113816105192ae2518eddfd548071fefa2bc8
+    digest: ea3e00be51ae1233ed0abeeeb424ae8c55cb7686f159bdca6f169cb291dfedc9
     home: https://www.ibm.com/docs/en/b2b-integrator/6.2.1
     icon: https://raw.githubusercontent.com/IBM/charts/master/logo/ibm-b2bi-icon.png
     keywords:
@@ -58,8 +58,8 @@ entries:
   - annotations:
       charts.openshift.io/name: IBM Sterling File Gateway
     apiVersion: v2
-    appVersion: 6.2.1.2
-    created: "2026-06-04T23:43:45.57110383-04:00"
+    appVersion: 6.2.1.2_dummy
+    created: "2026-06-08T13:52:39.528327912-04:00"
     dependencies:
     - alias: sch
       name: ibm-sch
@@ -84,7 +84,7 @@ entries:
       check https://www.ibm.com/support/knowledgecenter/en/SS3JSW_6.2.1/installing/installing/integrator/InstallingCertifiedContainer.html.
       License By installing this product you accept the license terms https://ibm.biz/SFG_621_withRHO
       | https://ibm.biz/SFG_621_forRHO
-    digest: e57ae539fd46428838cf52c2b0c34c1146be6bde777a3b68b8aa4193e565c38b
+    digest: 9536fca5332e2ec7f1bc4ed20bf7c6b6370fa96c110e2a60db92767e6ea582f8
     home: https://www.ibm.com/support/knowledgecenter/SS3JSW_6.2.1/kc_welcome_b2bi.html
     icon: https://raw.githubusercontent.com/IBM/charts/master/logo/ibm-sfg-icon.png
     keywords:
@@ -106,4 +106,4 @@ entries:
     urls:
     - ibm-sfg-prod-3.1.4.tgz
     version: 3.1.4
-generated: "2026-06-04T23:43:45.523030936-04:00"
+generated: "2026-06-08T13:52:39.473827069-04:00"
